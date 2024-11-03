@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(166, 224, 224);
+}
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: hsl(226, 57%, 12%);
+    font-size: 2rem;
+    
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 20px;
+    border-color: rgb(255, 217, 0);
+}
+#display{
+    display: flex;
+    flex-direction: column;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(37, 25, 25, 0.89);
+    font-size: 2rem;
+    text-shadow: 3px 3px 3px;
+}
+#controls button{
+  margin: 2px;
+  color: beige;
+  padding: 4px ;
+  border: none;
+  border-radius: 5px;
+  min-width: 60px ;
+  transition: 0.5s ease-in-out;
+}
+#startbtn{
+    background-color: hsl(110, 86%, 31%);
+}
+#startbtn:hover{
+       background-color: hsl(110, 88%, 40%);
+}
+#stopbtn{
+    background-color: hsl(7, 91%, 50%);
+}
+#stopbtn:hover{
+       background-color:  hsl(7, 91%, 40%);
+}
+#resetbtn{
+    background-color: hsl(229, 80%, 50%);
+}
+#resetbtn:hover{
+       background-color:hsl(229, 80%, 40%);
+}
